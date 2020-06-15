@@ -1,9 +1,11 @@
 const routerBase =
-    process.env.DEPLOY_ENV === "GH_PAGES" ? {
+    process.env.DEPLOY_ENV === "GH_PAGES" ?
+    {
         router: {
             base: "/project-mu/"
         }
-    } : {};
+    } :
+    {};
 module.exports = {
     mode: "universal",
     /*
@@ -34,6 +36,7 @@ module.exports = {
      ** Plugins to load before mounting the App
      */
     plugins: [],
+    ...routerBase,
     /*
      ** Nuxt.js dev-modules
      */
