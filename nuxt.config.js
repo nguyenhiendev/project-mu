@@ -1,9 +1,11 @@
 const routerBase =
-    process.env.DEPLOY_ENV === "GH_PAGES" ? {
+    process.env.DEPLOY_ENV === "GH_PAGES" ?
+    {
         router: {
             base: "/project-mu/"
         }
-    } : {};
+    } :
+    {};
 module.exports = {
     mode: "universal",
     /*
@@ -34,7 +36,7 @@ module.exports = {
      ** Plugins to load before mounting the App
      */
     plugins: [],
-    ...routerBase,
+
     /*
      ** Nuxt.js dev-modules
      */
@@ -46,6 +48,7 @@ module.exports = {
     /*
      ** Build configuration
      */
+    ...routerBase,
     build: {
         /*
          ** You can extend webpack config here
@@ -53,7 +56,7 @@ module.exports = {
         extend(config, { isClient }) {
             // Extend only webpack config for client-bundle
             if (isClient) {
-                config.devtool = 'source-map'
+                config.devtool = "source-map";
             }
         }
     }
