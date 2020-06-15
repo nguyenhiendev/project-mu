@@ -4,7 +4,7 @@ const routerBase =
             base: "/project-mu/"
         },
         build: {
-            publicPath: '/project-mu/assets/'
+            publicPath: '/project-mu/'
         }
     } : {};
 module.exports = {
