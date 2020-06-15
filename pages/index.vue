@@ -678,7 +678,7 @@ html {
 .footer {
   width: 100%;
   height: 503px;
-  background: url(../assets/images/body-bg-bottom.jpg) center bottom no-repeat;
+  background: url("../assets/images/body-bg-bottom.jpg") center bottom no-repeat;
 }
 body {
   width: 100%;
@@ -703,7 +703,7 @@ div {
 .menu-top {
   text-align: center;
   height: 130px;
-  background: url(../assets/images/menu-top-bg.png) bottom no-repeat;
+  background: url("../assets/images/menu-top-bg.png") bottom no-repeat;
 }
 .menu-top ul {
   width: 600px;
@@ -733,7 +733,7 @@ div {
   float: right;
 }
 .server-load {
-  background: url(../assets/images/server-load-bg.png) no-repeat;
+  background: url("../assets/images/server-load-bg.png") no-repeat;
   width: 191px;
   height: 86px;
   text-align: center;
@@ -762,13 +762,13 @@ div {
   width: 321px;
   position: relative;
   z-index: 1;
-  background: url(../assets/images/sidebar-bg.png);
+  background: url("../assets/images/sidebar-bg.png");
   display: block;
 }
 .download a {
   display: block;
   text-decoration: none;
-  background: url(../assets/images/download-button.jpg) no-repeat;
+  background: url("../assets/images/download-button.jpg") no-repeat;
   width: 321px;
   height: 105px;
   padding-top: 47px;
@@ -795,7 +795,7 @@ div {
 .register a {
   display: block;
   text-decoration: none;
-  background: url(../assets/images/register-button.jpg) no-repeat;
+  background: url("../assets/images/register-button.jpg") no-repeat;
   width: 321px;
   height: 105px;
   padding-top: 47px;
@@ -822,7 +822,7 @@ div {
 }
 .right-sidebar {
   width: 320px;
-  background: url(../assets/images/sidebar-bg.png);
+  background: url("../assets/images/sidebar-bg.png");
   position: relative;
 }
 .login-block {
@@ -853,7 +853,7 @@ textarea {
   border: 1px solid rgba(0, 0, 0, 0);
 }
 .login-button {
-  background: url(../assets/images/login-button.jpg) no-repeat;
+  background: url("../assets/images/login-button.jpg") no-repeat;
   width: 109px;
   height: 35px;
   margin-left: 0px;
@@ -876,7 +876,7 @@ button {
   font-size: 14px;
 }
 .status-title {
-  background: url(../assets/images/sidebar-title-bg.jpg) repeat-x;
+  background: url("../assets/images/sidebar-title-bg.jpg") repeat-x;
   height: 48px;
   line-height: 48px;
   width: 250px;
@@ -922,14 +922,14 @@ button {
   margin-right: 10px;
 }
 .status-info-status i {
-  background: url(../assets/images/online-icon.png) -40px 0px no-repeat;
+  background: url("../assets/images/online-icon.png") -40px 0px no-repeat;
   height: 16px;
   width: 16px;
   display: inline-block;
   margin-bottom: -3px;
 }
 .title-best-player {
-  background: url(../assets/images/sidebar-title-bg.jpg) repeat-x;
+  background: url("../assets/images/sidebar-title-bg.jpg") repeat-x;
   height: 48px;
   line-height: 48px;
   width: 250px;
@@ -941,7 +941,7 @@ button {
   position: relative;
 }
 .title-best-player > span {
-  background: url(../assets/images/flag-icon.png) no-repeat;
+  background: url("../assets/images/flag-icon.png") no-repeat;
   width: 59px;
   height: 62px;
   padding-top: 5px;
@@ -993,7 +993,7 @@ button {
   width: 16px;
   vertical-align: text-top;
   line-height: 16px;
-  background: url(../assets/images/flags.png) no-repeat;
+  background: url("../assets/images/flags.png") no-repeat;
 }
 .player-info .top-name {
   width: 100px;
