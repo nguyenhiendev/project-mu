@@ -52,8 +52,3 @@ module.exports = {
         extend(config, ctx) {}
     }
 };
-export default {
-    router: {
-        base: '/project-mu /'
-    }
-}
