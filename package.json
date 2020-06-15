@@ -4,7 +4,7 @@
     "description": "My superior Nuxt.js project",
     "author": "NguyenHien",
     "private": true,
-    "homepage": "https://github.com/nguyenhiendev/project-mu",
+    "homepage": "https://github.com/nguyenhiendev/project-mu/",
     "scripts": {
         "dev": "cross-env NODE_ENV=development nodemon server/index.js --watch server",
         "build": "nuxt build",
