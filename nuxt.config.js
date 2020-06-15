@@ -1,11 +1,9 @@
 const routerBase =
-    process.env.DEPLOY_ENV === "GH_PAGES" ?
-    {
+    process.env.DEPLOY_ENV === "GH_PAGES" ? {
         router: {
             base: "/project-mu/"
         }
-    } :
-    {};
+    } : {};
 module.exports = {
     mode: "universal",
     /*
@@ -54,3 +52,8 @@ module.exports = {
         extend(config, ctx) {}
     }
 };
+export default {
+    router: {
+        base: '/project-mu /'
+    }
+}
