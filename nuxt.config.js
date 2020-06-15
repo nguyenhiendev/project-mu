@@ -1,11 +1,9 @@
 const routerBase =
-    process.env.DEPLOY_ENV === "GH_PAGES" ?
-    {
+    process.env.DEPLOY_ENV === "GH_PAGES" ? {
         router: {
             base: "/project-mu/"
         }
-    } :
-    {};
+    } : {};
 module.exports = {
     mode: "universal",
     /*
@@ -52,6 +50,11 @@ module.exports = {
         /*
          ** You can extend webpack config here
          */
-        extend(config, ctx) {}
+        extend(config, { isClient }) {
+            // Extend only webpack config for client-bundle
+            if (isClient) {
+                config.devtool = 'source-map'
+            }
+        }
     }
 };
