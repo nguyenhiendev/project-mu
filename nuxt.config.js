@@ -1,3 +1,11 @@
+const routerBase =
+    process.env.DEPLOY_ENV === "GH_PAGES" ?
+    {
+        router: {
+            base: "/project-mu/"
+        }
+    } :
+    {};
 module.exports = {
     mode: "universal",
     /*
